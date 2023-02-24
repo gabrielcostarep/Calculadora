@@ -1,6 +1,6 @@
-🕘 Exemplo de um cronômetro utilizando JavaScript
+🖩 Exemplo de uma Calculadora utilizando JavaScript
 
-➡️ [Acesse a página clicando aqui](https://gabrielcostarep.github.io/Cronometro/) ⬅️
+➡️ [Acesse a página clicando aqui](https://gabrielcostarep.github.io/Calculadora/) ⬅️
 
  <div align="center" >
   <img src="./Readme-cell-gif.gif" alt="demo-mobile" height="500em">
