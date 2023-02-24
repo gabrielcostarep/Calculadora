@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 470px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.calculadora {
+  width: 400px
+}
+
+table {
+  margin: auto;
+}
+
+.display {
+  font-size: 2em;
+  width: 100%;
+  text-align: right;
+  margin-bottom: 10px;
+  border: 2px solid rgb(82, 144, 158);
+  border-radius: 5px;
+}
+
+.display:focus {
+  border: 2px solid rgb(70, 123, 134);
+}
+
+.btn {
+  width: 100%;
+  height: 50px;
+  font-size: 1em;
+  border: none;
+  background-color: #dfdfdf;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #c5c5c5;
+}
+
+.btn:active {
+  background-color: #aaa;
+}
+
+.btn-eq {
+  background-color: rgb(82, 144, 158);
+}
+
+.btn-eq:hover {
+  background-color: rgb(69, 121, 133);
+}
+
+.btn-eq:active {
+  background-color: rgb(61, 105, 116);
+}
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+}
